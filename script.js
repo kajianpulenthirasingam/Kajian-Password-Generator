@@ -38,7 +38,7 @@ function generatePassword(){
     var random = Math.floor(Math.random() * confirmedChars.length);
     password += confirmedChars.charAt(random);
   }
-
+  //returns the fully done password to the function
   return password;
 }
 
